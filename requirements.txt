@@ -1,0 +1,10 @@
+# Zenon runtime dependencies
+# Tested on Linux Mint 21.3 with Python 3.10.12:
+#   PyGObject 3.42.1, pycairo 1.20.1, dbus-python 1.2.18
+#
+# On Debian, Ubuntu, and Linux Mint, prefer the distro packages listed in the
+# README. PyGObject and pycairo need system development headers when built
+# with pip.
+PyGObject>=3.42
+pycairo>=1.20
+dbus-python>=1.2
